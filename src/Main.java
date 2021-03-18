@@ -5,7 +5,7 @@ public class Main {
         int N, M;
         Scanner sc = new Scanner(System.in);
         do {
-            System.out.println("Input: ");
+            System.out.println("Input:");
             String[] rowsAndColumns = sc.nextLine().split(" ");
             M = Integer.parseInt(rowsAndColumns[0]);
             N = Integer.parseInt(rowsAndColumns[1]);
